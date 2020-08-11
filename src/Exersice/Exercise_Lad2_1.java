@@ -1,4 +1,4 @@
-package Lab2;
+package Exersice;
 
 import java.util.Scanner;
 
@@ -25,7 +25,7 @@ public class Exercise_Lad2_1 {
 
         //display
         System.out.println("Total = "+total);
-        System.out.println("Average = "+avg);
+        System.out.println("Average = "+avg)    ;
 
 
 
