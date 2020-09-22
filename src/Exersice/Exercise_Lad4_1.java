@@ -32,8 +32,20 @@ public class Exercise_Lad4_1 {
                 double area = findArea(b, h);
                 System.out.println("The area of Triangle :");
                 break;
-            case 2:break;
-            case 3:break;
+            case 2:
+                System.out.print("Enter Conical radius:  ");
+                double r = sc.nextDouble();
+                System.out.print("Enter Conical tilt height :  ");
+                double l = sc.nextDouble();
+                double cone = findAreaCone(r,l);
+                System.out.println("The area of Cone:"+cone);
+                break;
+            case 3:
+                System.out.print("Enter Circle radius");
+                double PI = sc.nextDouble();
+                double Circle = findAreaCircle(PI);
+                System.out.println("The area of Circle:"+Circle);
+                break;
             case 4:System.exit(1);break;
             default:System.out.println("Please, select number 1-4.");
 
