@@ -21,7 +21,7 @@ public class Example_BasicMethod {
         A();
         A();
         A();
-        B(100)
+        B(100);
         int sum = c(100,200);
         System.out.println(sum);
         System.out.println(c(500,600));
@@ -32,7 +32,7 @@ public class Example_BasicMethod {
     public static void A(){
         //statement
         System.out.println("Hello A.");
-        B(500)
+        B(500);
     }//A
 
 
