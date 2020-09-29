@@ -16,7 +16,7 @@ public class BasicArray2D {
 
     }
 
-    private static void displayArry(int[][] number) {
+    private static void displayArray(int[][] number) {
         System.out.println("Data in array 2D: ");
         for (int i = 0; i < number.length; i++) { //row
             for (int j = 0; j < number[i].length; j++) { //column
@@ -31,10 +31,10 @@ public class BasicArray2D {
 
     private static int[][] inputData(int[][] number) {
         Scanner SC = new Scanner(System.in);
-        System.out.println("Please, input integers to attay 2D: ");
+        System.out.println("Please, input integers to array 2D: ");
         for (int i = 0; i < number.length; i++) { //row
             for (int j = 0; j < number[i].length; j++) { //column
-                System.out.println("namber[" + i + "][" + j + "]:"); //number[0] [0]:
+                System.out.println("number[" + i + "][" + j + "]:"); //number[0] [0]:
                 number[i][j] = SC.nextInt();
             }
         }
