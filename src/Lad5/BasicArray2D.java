@@ -10,7 +10,7 @@ public class BasicArray2D {
         //input Data to array 2D
         number = inputData(number);
         //displayArray(number);
-        displayArry(number);
+        displayArray(number);
 
 
 
