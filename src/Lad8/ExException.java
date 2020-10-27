@@ -1,4 +1,4 @@
-package Lad8;
+package Lab8;
 
 import java.util.InputMismatchException;
 import java.util.Scanner;
