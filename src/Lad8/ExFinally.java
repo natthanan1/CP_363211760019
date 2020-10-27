@@ -1,13 +1,17 @@
 package Lad8;
+
 import java.io.*;
+
 public class ExFinally {
-    public static void main (String[] args) {
+    public static void main(String[] args)  {
         File myFile = new File("myFile.txt");
-        BufferedReader readar = null;
+        BufferedReader reader = null;
+
         try {
-            readar = new BufferedReader(new FileReader(myFile));
+            reader = new BufferedReader(new FileReader(myFile));
             String txt = null;
-            while ((txt = readar.readLine()) != null) {
+
+            while ((txt = reader.readLine()) != null){
                 //display
                 System.out.println(txt);
             }//while
@@ -18,5 +22,7 @@ public class ExFinally {
             System.out.println("Could not read text from file.");
             e.printStackTrace();
         }
-    }
-    }
+
+
+    }//main
+}//class
