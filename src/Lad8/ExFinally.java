@@ -21,6 +21,8 @@ public class ExFinally {
         } catch (IOException e) {
             System.out.println("Could not read text from file.");
             e.printStackTrace();
+        }finally {
+
         }
 
 
